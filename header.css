@@ -1,0 +1,30 @@
+/* header.css */
+
+/* Styles for the navigation container */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+  
+  /* Styles for the left container containing the image and labels */
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styles for the buttons */
+  .nav button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  .nav button:nth-child(2),
+  .nav button:nth-child(3) {
+  background-color: transparent;
+  color: black;
+  }
